@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" content="Pomodoro Timer">
+    <title> Pomodoro Timer</title>
+    <link rel="stylesheet" type="text/css" href="eric-meyer-reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+</head>
+
+<body>
+  <div>
+    <h1>Pomodoro Clock</h1>
+
+    <button type="button" id="start">start</button>
+    <button type="button" id="reset">reset</button>
+    <button type="button" id="stop">stop</button>
+
+    <div id = "TimeDiv">
+      <h1 id="title1">Session Time<h1>
+      <button type="button" id="minus5Clock">-</button>
+      <span  id = "minutesSession">25</span>
+      <button type="button" id="add5Clock">+</button>
+    </div>
+
+    <div id = "BreakDiv">
+      <h1 id="title2">Break Time<h1>
+      <button type="button" id="minus5Break">-</button>
+      <span id = "minutesBreak">5</span>
+      <button type="button" id="add5Break">+</button>
+    </div>
+
+
+
+  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src = 'JS/pomodoro.js'></script>
+</body>
+</html>

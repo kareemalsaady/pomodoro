@@ -1,0 +1,46 @@
+body {
+  background-color: midnightblue;
+  color: lightgrey;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 14px;
+}
+
+div {
+  text-align: center;
+}
+
+#minus5Break {
+  text-align: left;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 0.5em;
+  border-color: black;
+  background-color: white;
+}
+
+
+button:hover {
+  background-color: darkgrey;
+}
+
+h1{
+  font-size: 36px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#start {
+  background-color: lightgreen;
+}
+
+#minutesSession, #minutesBreak {
+  width: 500px;
+  font-size: 42px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
